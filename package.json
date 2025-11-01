@@ -1,0 +1,11 @@
+{
+  "name": "solid-swiftui",
+  "version": "1.0.0",
+  "license": "ISC",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build-sdk": "npm run build -w @solid-swiftui/core"
+  }
+}
